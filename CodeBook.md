@@ -54,3 +54,13 @@ There are 5 parts:
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+
+## Tidydata.txt
+
+A file named tidydata.txt is written from run_analysis.R and include the following columns.  All units are maintained from the original data set.
+
+| column       | description                                              | type    |
+| ------------ | -------------------------------------------------------- | ------- |
+| Subject      | Identifier of the subject                                | integer |
+| Activity     | Label of the activity                                    | factor  |
+| (MeanSamples)| Mean of variables by Subject + Activity provided in tidy | numeric |
