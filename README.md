@@ -31,7 +31,7 @@ You should create one R script called run_analysis.R that does the following.
 
 
 ## Basic Assumption
-The R code in run_analysis.R proceeds under the assumption that the zip file available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is downloaded and extracted into a folder called "data" in the R Working Directory: 
+The R code in run_analysis.R proceeds under the assumption that the zip file available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is downloaded and extracted into a folder called "data" in the R Working Directory. So 
 
 R_Working_Directory/data/UCI HAR Dataset/ ...
 
