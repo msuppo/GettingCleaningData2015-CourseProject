@@ -12,10 +12,10 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Repository Files
 
-README.md: this file
-run_analysis.R: R script to transform raw data set in a tidy one
-CodeBook.md: information about raw and tidy data set and elaboration made to transform them
-tidydata.txt : the clean data extracted from the original data using run_analysis.R
+- README.md: this file
+- run_analysis.R: R script to transform raw data set in a tidy one
+- CodeBook.md: information about raw and tidy data set and elaboration made to transform them
+- tidydata.txt : the clean data extracted from the original data using run_analysis.R
 
 
 ## Basic Assumption
