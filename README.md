@@ -31,13 +31,12 @@ You should create one R script called run_analysis.R that does the following.
 
 
 ## Basic Assumption
-The R code in run_analysis.R proceeds under the assumption that the zip file available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is downloaded and extracted into a folder "data" in the R Home Directory: 
+The R code in run_analysis.R proceeds under the assumption that the zip file available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is downloaded and extracted into a folder called "data" in the R Working Directory: 
 
-R_Home_Directory/data
+R_Working_Directory/data/UCI HAR Dataset/ ...
 
 ## Steps to work on this course project
-After you download and unzip that file,
-Run `source("run_analysis.R")`, then it will generate a new file  `tidydata.txt` in your working directory.
+After you download and unzip the file as it was descripted before, run `source("run_analysis.R")`, then it will generate a new file  `tidydata.txt` in your working directory.
 
 ## Libraries Used
 
