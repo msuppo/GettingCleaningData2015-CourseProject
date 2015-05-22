@@ -40,5 +40,4 @@ After you download and unzip the file as it was descripted before, run `source("
 
 ## Libraries Used
 
-- library(data.table)
 - library(dplyr)
