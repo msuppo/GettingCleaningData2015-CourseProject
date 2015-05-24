@@ -68,6 +68,7 @@ names(Data)<-gsub("BodyBody", "Body", names(Data))      ## BodyBody is replaced 
 
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+## Aggregate the Data for Activity and each Subject, using Mean. Then write the table into a file
 
 DataAggregate<-aggregate(. ~subject + activity, Data, mean)
 DataAggregate<-DataAggregate[order(DataAggregate$subject,DataAggregate$activity),]
