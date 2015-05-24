@@ -52,7 +52,7 @@ Preparation: Read data from the files into the variables:
 - Read the Activity files, values of Varible Activity consist of data from “Y_train.txt” and “Y_test.txt”
 - Read the Subject files, values of Varible Subject consist of data from “subject_train.txt” and subject_test.txt"
 - Read Features files, values of Varibles Features consist of data from “X_train.txt” and “X_test.txt”
-     
+ 
 1. Merges the training and the test sets to create one data set
      - Concatenate the data tables by rows
      - Set names to variables, Names of Varibles Features come from “features.txt”
