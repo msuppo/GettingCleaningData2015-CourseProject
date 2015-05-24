@@ -79,7 +79,7 @@ There are 5 parts and the preparation:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 5.1  Aggregate the Data for Activity and each Subject, using Mean
 5.2  Write the table into a file
-
+ 
 ## Tidydata.txt
 
 A file named tidydata.txt is written from run_analysis.R and include the following columns.  All units are maintained from the original data set.
