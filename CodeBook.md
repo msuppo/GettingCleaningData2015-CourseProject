@@ -48,32 +48,33 @@ The following files are available for the train and test data. Their description
 
 There are 5 parts and the preparation:
 
-0.0. Read data from the files into the variables 
-0.1.  Read the Activity files, values of Varible Activity consist of data from “Y_train.txt” and “Y_test.txt”
-0.2.  Read the Subject files, values of Varible Subject consist of data from “subject_train.txt” and subject_test.txt"
-0.3.  Read Features files, values of Varibles Features consist of data from “X_train.txt” and “X_test.txt”
-1.0. Merges the training and the test sets to create one data set
-1.1.  Concatenate the data tables by rows
-1.2.  Set names to variables, Names of Varibles Features come from “features.txt”
-1.3.  Merge columns to get the data frame Data for all data
-2.0. Extracts only the measurements on the mean and standard deviation for each measurement
-2.1.  Subset Name of Features by measurements on the mean and standard deviation
-2.2.  Subset the data frame Data by seleted names of Features
-3.0. Uses descriptive activity names to name the activities in the data set
-3.1. Read descriptive activity names from “activity_labels.txt”
-3.2. factorize Variale activity in the data frame Data using descriptive activity names
-4.0. Appropriately labels the data set with descriptive variable names
-4.1.  In the former part, variables Activity and Subject and names of the activities have been labelled using descriptive names.
-4.2.  In this part, Names of Features will labelled using descriptive variable names.
+Preparation: Read data from the files into the variables 
+     - Read the Activity files, values of Varible Activity consist of data from “Y_train.txt” and “Y_test.txt”
+     - Read the Subject files, values of Varible Subject consist of data from “subject_train.txt” and subject_test.txt"
+     - Read Features files, values of Varibles Features consist of data from “X_train.txt” and “X_test.txt”
+     
+1. Merges the training and the test sets to create one data set
+     - Concatenate the data tables by rows
+     - Set names to variables, Names of Varibles Features come from “features.txt”
+     - Merge columns to get the data frame Data for all data
+2. Extracts only the measurements on the mean and standard deviation for each measurement
+     - Subset Name of Features by measurements on the mean and standard deviation
+     - Subset the data frame Data by seleted names of Features
+3. Uses descriptive activity names to name the activities in the data set
+     - Read descriptive activity names from “activity_labels.txt”
+     - Factorize Variale activity in the data frame Data using descriptive activity names
+4. Appropriately labels the data set with descriptive variable names
+     - In the former part, variables Activity and Subject and names of the activities have been labelled using descriptive names.
+     - In this part, Names of Features will labelled using descriptive variable names.
      prefix t is replaced by time
      prefix f is replaced by frequency
      Acc is replaced by Accelerometer
      Gyro is replaced by Gyroscope
      Mag is replaced by Magnitude
      BodyBody is replaced by Body
-5.0. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-5.1.  Aggregate the Data for Activity and each Subject, using Mean
-5.2.  Write the table into a file
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+     - Aggregate the Data for Activity and each Subject, using Mean
+     - Write the table into a file
  
 ## Tidydata.txt
 
